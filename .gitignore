@@ -104,6 +104,6 @@ dist
 .tern-port
 
 #config and discord token
-.config
-.package-lock
-.package
+config.json
+package-lock.json  
+package
