@@ -1,0 +1,39 @@
+{
+  "name": "cheese",
+  "version": "3.0.0",
+  "description": "The Cheesiest Bot On Discord (Verified)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tomtom-Skywalker/cheese"
+  },
+  "keywords": [
+    "Bot",
+    "Discord",
+    "Cheese"
+  ],
+  "author": "Tomtomvader298",
+  "license": "MIT",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0-canary.0",
+    "@napi-rs/canvas": "^0.1.30",
+    "ascii-table": "^0.0.9",
+    "cpu-stat": "^2.0.1",
+    "discord-api-types": "^0.37.15",
+    "discord.js": "^14.15.2",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^3.0.0-canary.1",
+    "node-superfetch": "^0.2.3",
+    "path": "^0.12.7",
+    "pretty-ms": "^7.0.1",
+    "request-promise": "^4.2.6"
+  }
+}
